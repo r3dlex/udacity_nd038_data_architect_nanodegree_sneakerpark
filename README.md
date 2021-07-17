@@ -1,5 +1,36 @@
 # Data Governance at Sneaker Park
 
+## Rubric
+
+### Enterprise Data Catalog
+
+|                                                                                                  Criteria                                                                                                  |                                                                                                                                            Meets Specifications                                                                                                                                           |   |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|---|
+| Create a conceptual Enterprise Data Model that provides a holistic view of the data for an entire organization                                                                                             |   A conceptual E-R Diagram has been included.   E-R Diagram uses some flavor of Crow’s Foot Notation.   Both Cardinality and Optionality have been specified.   The diagram includes all the important entities and relationships found in the data.   Entities are clearly labeled.                      |   |
+|   Establish Enterprise Data Catalog as a business-oriented directory to help manage metadata at scale.    Set up a Metadata repository to facilitate search and discovery of the data by business users.   |   The Data Dictionary template has been completely and correctly filled out.   The Data Dictionary captures ALL tables and fields that can be found in the provided data.   The Business metadata template has been completely filled out.   All 8 tables are covered in the Business metadata template.  |   |
+
+### Data Quality Management
+
+|                                           Criteria                                           |                                                                                                                                                              Meets Specifications                                                                                                                                                              |   |
+|:--------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|---|
+| Profile data for data quality assessment using various techniques                            |   Existing Issue, Table, Column, Issue and Dimension have been filled out for at least 3 issues in the Data Quality sheet in the provided Sheets template.   Existing Issue, Table, Column, and Issue have been filled out for at least 1 potential future issue.   There is a description and example for each current and potential issue.   |   |
+| Identify data quality remediation strategies                                                 |   There is a concrete suggested resolution specified for each data quality issue.   There is a data quality rule outlined for each data quality issue using business terms such as “A store must have an address”.   A measurable metric is specified for each data quality rule that will be used to monitor compliance with that rule.       |   |
+| Setup dashboards, reports and processes for ongoing data quality measurement and monitoring  |   There is a data quality dashboard mock-up provided in the solution.   The data quality dashboard mockup includes the 4 data quality metrics from the previous step.   Metrics are clearly labeled on the dashboard mockup.                                                                                                                   |   |
+
+
+### MDM Architecture
+
+|                                                           Criteria                                                            |                                                                                                                                      Meets Specifications                                                                                                                                     |   |
+|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| Identify the appropriate Master Data Management architecture for a business.                                                  |   - Provide the diagram of the proposed <br>- Master Data Management  architecture using one the of MDM styles covered in this course (i.e.  Registry, Consolidation, Centralized, or Hybrid).    <br>- Provide a written explanation for why this architecture was chosen, specifically for SneakerPark.   |   |
+| Establish a golden record for a Master Data Management system that ties all data within transactional data sources together.  |   - Provide 4 data matching rules: 2 for Items and 2 for Customers.   <br> - Your rules must be realistic and be able to match records uniquely and correctly.                                                                                                                                         |   |
+
+### Governance Roles and Responsibilities
+
+|                                         Criteria                                         |                                                                                                                                                                                                                      Meets Specifications                                                                                                                                                                                                                      |   |
+|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| Describe the different roles associated with Data Management and their responsibilities  |   1-2 paragraph discussion of the data governance roles and  responsibilities across at least 3 Data Governance aspects (such as DQ,  MDM, Metadata, etc.) that are appropriate for SneakerPark at this stage  of their data management journey (and perhaps in the future).   Discussion should include whether SneakerPark already has the necessary talent for these roles and responsibilities or not.    The discussion must be specific to SneakerPark.  |
+
 ## Business Background
 
 ![Sneaker Park](img/sneakerpark_logo.png)
@@ -19,7 +50,7 @@ Currently, SneakerPark only supports sales within the United States.
 Below you can see a diagram that will hopefully help you visualize some of SneakerPark's business processes. Keep in mind that it does not capture ALL processes and every nuance, but simply serves as another artifact to use in your project.
 
 ![SneakerParks business process](img/sneakerpark-business-process-flow-1.png)
-SneakerPark's business processes
+<center>SneakerPark's business processes</center>
 
 ### Motivation
 
@@ -133,4 +164,3 @@ Attach the finished document to your final submission.
 
 ![Value Example](img/value_example.png)
 <center>Example note/comment for a column</center>
-
